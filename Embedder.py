@@ -9,7 +9,7 @@ from typing import List
 load_dotenv(dotenv_path=".env")
 
 # Debug (check if key is loaded)
-print("KEY:", os.getenv("GEMINI_API_KEY"))
+#print("KEY:", os.getenv("GEMINI_API_KEY"))
 
 # Configure Gemini
 api_key = os.getenv("GEMINI_API_KEY")
